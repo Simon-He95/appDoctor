@@ -1,0 +1,307 @@
+@media screen and (max-width: 400px) {
+    .home_container .header{
+        background-image: url('./Nav\ bar.png');
+    }
+    .wrapper .bg{
+        background-image: url('./images/医生bg@2x.png');
+    }
+}
+@media screen and (min-width: 400px) and (max-width: 900px) {
+    .home_container .header{
+        background-image: url('./Nav\ bar@2x.png');
+    }
+    .wrapper .bg{
+        background-image: url('./images/医生bg@2x.png');
+    }
+}
+@media screen and (min-width: 900px) {
+    .home_container .header{
+        background-image: url('./Nav\ bar@3x.png');
+    }
+    .wrapper .bg{
+        background-image: url('./images/医生背景@3x.png');
+    }
+}
+.home_container{
+    width: 100vw;
+    background-color: #eee;
+    padding-bottom: 46px;
+}
+.home_container .header{
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    box-sizing: border-box;
+    padding: 0 12px;
+    background-size: contain;
+}
+
+.header .flex{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-top: 50px;
+    margin-bottom: 12px;
+    color: #fff;
+}
+
+
+.header .wrapper{
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 12px 12px 15px 12px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+}
+.wrapper .head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head .title{
+    font-size: 18px;
+    color: #333;
+}
+.head .more{
+    font-size: 14px;
+    color: #666;
+}
+.wrapper .content{
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 15px;
+}
+.wrapper .main{
+    display: flex;
+}
+.main .box{
+    border-radius: 50%;
+    background-color: #fff;
+    flex: 0 0 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    box-shadow: 0px 2px 14px rgb(0 0 0 / 30%);
+}
+.main .img{
+    width: 55px;
+    height: 55px;
+}
+.main .mainWrap{
+    flex: 1;
+}
+.mainWrap .name{
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 6px;
+}
+.mainWrap .des{
+    display: inline-block;
+    font-size: 12px;
+    color: #3F78FC;
+    border: 1px solid #3F78FC;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+.wrapper .bg{
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    padding: 20px 0 12px 0;
+    margin-top: 12px;
+}
+.bg .left{
+    flex: 1;
+    margin-left: 20px;
+}
+.left .title{
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 7px;
+}
+.left .special{
+    border: 1px solid #3F78FC;
+    padding: 2px 4px;
+    font-size: 12px;
+    color: #3F78FC;
+    margin-bottom: 10px;
+    display: inline-block;
+    border-radius: 3px;
+}
+.left .content{
+    font-size: 14px;
+    color: #666;
+    line-height: 20px;
+}
+.bg .right{
+    flex: 0 0 120px;
+    position: relative;
+    text-align: center;
+}
+.right .shadow{
+    position: absolute;
+    width: 100%;
+    filter: blur(2px);
+    background-color: rgba(255, 255, 255, 0.6);
+    top: 60px;
+    height: calc(100% - 80px);
+    z-index: 1;
+}
+
+.right img{
+    width: 60px;
+}
+.right .shadowContent{
+    position: absolute;
+    z-index: 10;
+    top: 60px;
+}
+.shadowContent .name{
+    font-size: 14px;
+    padding: 2px 0;
+    text-align: center;
+    color: #333;
+}
+.shadowContent .name .professor{
+    font-size: 12px;
+    color: #555;
+}
+.shadowContent .des{
+    font-size: 11px;
+    color: #666;
+    text-align: center;
+}
+
+.doctorWrapper{
+    background-color: #fff;
+    width: 100%;
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+    border-radius: 5px;
+}
+.doctorWrapper .head{
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+.doctorWrapper .doctorMain{
+    display: flex;
+    justify-content: space-between;
+}
+.doctorMain .zhibo{
+    flex: 0 0 170px;
+    background-image: url('./images/zhibo@3.png');
+    width: 170px;
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-left: 12px;
+}
+.doctorMain .doctorList{
+    height: 250px;
+    width: 181px;
+}
+.doctorList .person1{
+    background-image: url('./images/doctor-2@3.png');
+    height: 125px;
+    background-size: 100%;
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 12px;
+}
+.doctorList .person2{
+    background-image: url('./images/doctor-1@3.png');
+    height: 125px;
+    background-size: 100%;
+    position: relative;
+    margin-left: 12px;
+}
+.person1 .name, .person2 .name{
+    box-sizing: border-box;
+    padding-top: 20px;
+    margin-bottom: 4px;
+    font-size: 14px;
+    color: #333;
+}
+.person1 .name span, .person2 .name span{
+    font-size: 12px;
+    color: #A3A3A3;
+}
+.person1 .content, .person2 .content{
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 6px;
+    width: 120px;
+}
+.person1 .title , .person2 .title {
+    width: 120px;
+}
+.person1 .shadow, .person2 .shadow{
+    position: absolute;
+    bottom: 0;
+    right: 0%;
+    width: 70px;
+    height: 36px;
+    background-image: linear-gradient(transparent, #fff);
+}
+.person1 .title div, .person2 .title div{
+    display: inline-block;
+    border:  1px solid rgba(232, 232, 232, 1);
+    padding: 1px 3px;
+    color: #666;
+    font-size: 10px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    border-radius: 2px;
+}
+.doctorWrapper .items{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.doctorWrapper .specailHead{
+    padding: 12px 12px 16px;
+}
+.specailHead .title{
+    font-size: 18px;
+    color: #333;
+}
+.doctorWrapper .des{
+    font-size: 12px;
+    color: #999;
+}
+.items .itemFlex{
+    width: 102px;
+    height: 102px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px 0px rgba(242, 242, 242, 1);
+}
+.itemFlex img{
+    width: 50px;
+    height: 50px;
+    margin: 10px 0 6px 0;
+}
+.itemFlex .name{
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+}
+.items .videoFlex{
+    width: 150px;
+    margin-bottom: 12px;
+}
+.videoFlex img{
+    width: 159px;
+    height: 170px;
+    margin-bottom: 8px;
+}
+.videoFlex .name{
+    font-size: 12px;
+    color: #333;
+}
